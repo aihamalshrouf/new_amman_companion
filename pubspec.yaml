@@ -1,0 +1,32 @@
+name: new_amman_companion
+description: A smart city tourism and visitor guide Flutter app supporting the NEW AMMAN Smart District graduation project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/app_launcher_icon.png
+  adaptive_icon_background: "#061826"
+  adaptive_icon_foreground: assets/images/app_launcher_icon.png
